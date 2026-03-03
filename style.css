@@ -116,7 +116,9 @@ footer {
     transform: scale(1.05);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
     min-height: 600px;
-    background-color: var(--off-white);
+    background-image: url('hero.jpg.jpg');
+    background-size: cover;
+    background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
     overflow: hidden;
 }
